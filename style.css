@@ -37,8 +37,8 @@ h1{
     text-align: center;
 }
 .navbar a:hover{
-    background-color: #ffb9f9;
-    color: rgb(255, 77, 249);
+    color: rgb(146, 90, 174);
+    background-color: rgb(224, 176, 255);
 }
 .navbar li{
     float: left;
