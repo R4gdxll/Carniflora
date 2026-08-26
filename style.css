@@ -1,10 +1,19 @@
+@font-face{
+    font-family: "evilgreen";
+    src: url(fonts/evilgreenplant1.ttf);
+}
+
+@font-face{
+    font-family: "imperator";
+    src: url(fonts/Imperator.ttf);
+}
 
 header{
     display: none;
 }
 
 body{
-    background-color: rgb(0, 176, 176);
+    background-color: #c1d4b0;
     margin: 0px;
 }
 
@@ -14,23 +23,22 @@ h1{
 
 .navbar ul{
     list-style-type: none;
-    background-color: #333;
+    background-color: #6e3f31;
     padding: 0px;
     margin: 0px;
     overflow: hidden;
 }
 
 .navbar a{
-    color: white;
+    color: rgb(255, 210, 250);
     text-decoration: none;
     padding:15px;
     display: block;
     text-align: center;
-    
 }
 .navbar a:hover{
-    background-color: rgb(175, 255, 175);
-    color: aqua;
+    background-color: #ffb9f9;
+    color: rgb(255, 77, 249);
 }
 .navbar li{
     float: left;
@@ -40,6 +48,18 @@ h1{
     text-align: center;
     margin-left: 40px;
     margin-right: 40px;
-    font-family: Arial, sans-serif;
-    font-size: 35px;
+    font-size: 20px;
+}
+.info h2{
+    font-family: "evilgreen";
+}
+
+.info p{
+    font-family: "imperator";
+    line-height: 1.2;
+}
+
+.info ol{
+    font-family: "imperator";
+    line-height: 1.2;
 }
