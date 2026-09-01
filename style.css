@@ -13,8 +13,10 @@ header{
 }
 
 body{
-    background-color: #c1d4b0;
-    margin: 0px;
+    background-image: url(imgs/Grown_Albedo_Scene.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
 }
 
 h1{
@@ -46,9 +48,13 @@ h1{
 }
 .info{
     text-align: center;
-    margin-left: 40px;
-    margin-right: 40px;
+    margin-top: 10px;
+    margin-left: 70px;
+    margin-right: 70px;
+    padding: 10px;
+    border-radius: 3%;
     font-size: 20px;
+    background-color:    rgb(193, 212, 175, 0.7);
 }
 .info h2{
     font-family: "evilgreen";
